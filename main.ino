@@ -25,6 +25,8 @@ struct command {
     uint8_t sii[6];
 };
 
+// From 17.7.2 High-Voltage Serial Programming Instruction set
+// Table 17-13
 static const struct command commands[] = {
     { // CMD_CHIP_ERASE
         len: 3,
